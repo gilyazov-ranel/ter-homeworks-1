@@ -56,7 +56,9 @@
 ![Screenshot 2024-11-18 223956](https://github.com/user-attachments/assets/3bcbfe79-6425-42ba-9fc7-a9af391aac34)
 
 8. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ **ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ**, а затем **ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ** строчкой из документации [**terraform провайдера docker**](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs).  (ищите в классификаторе resource docker_image )
-
+#### Ответ 
+Нужнно в ресурсе поменять опцию  ```keep_locally``` с  ```true``` на  ```false``` 
+![image](https://github.com/user-attachments/assets/d90accc2-16a9-4e8f-87e0-35c00de19285)
 
 ------
 
